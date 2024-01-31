@@ -14,7 +14,7 @@ namespace Git_doga
 			
 			int num = 1;
 
-			Reszletek r = new Reszletek();r
+			Reszletek r = new Reszletek();
 
 			
 
