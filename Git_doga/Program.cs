@@ -28,7 +28,7 @@ namespace Git_doga
 				Console.WriteLine("A{"+r.Lista_kiiratas()+"}\n");
 			}
 
-			Console.WriteLine("\nMinimum:"+r.Minimum());
+			Console.WriteLine("\nMaximum:"+r.Maximum());
 
 
 			Console.ReadKey();//Commit all

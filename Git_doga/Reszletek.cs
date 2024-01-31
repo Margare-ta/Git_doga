@@ -28,9 +28,9 @@ namespace Git_doga
 			return s;	
 		}
 
-		public int Minimum()
+		public int Maximum()
 		{
-			return nums.Min();
+			return nums.Max();
 		}
 	}
 }
