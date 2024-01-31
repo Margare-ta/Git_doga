@@ -21,10 +21,14 @@ namespace Git_doga
 			while (num != 0)
 			{
 				num = Convert.ToInt32(Console.ReadLine());
-				r.Lista_feltoltes(num);
-				Console.WriteLine("\n"+r.Lista_kiiratas());
-				
+				if(num != 0) 
+				{
+					r.Lista_feltoltes(num);
+				}
+				Console.WriteLine("A{"+r.Lista_kiiratas()+"}\n");
 			}
+
+			Console.WriteLine("\nMinimum:"+r.Minimum());
 
 
 			Console.ReadKey();//Commit all

@@ -27,5 +27,10 @@ namespace Git_doga
 			}
 			return s;	
 		}
+
+		public int Minimum()
+		{
+			return nums.Min();
+		}
 	}
 }
