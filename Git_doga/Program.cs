@@ -16,14 +16,18 @@ namespace Git_doga
 
 			Reszletek r = new Reszletek();
 
+			
+
 			while (num != 0)
 			{
 				num = Convert.ToInt32(Console.ReadLine());
 				r.Lista_feltoltes(num);
+				Console.WriteLine("\n"+r.Lista_kiiratas());
+				
 			}
-			
 
-			Console.ReadKey();
+
+			Console.ReadKey();//Commit all
 		}
 	}
 }

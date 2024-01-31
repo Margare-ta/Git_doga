@@ -16,5 +16,16 @@ namespace Git_doga
 		{
 			nums.Add(num);
 		}
+
+		public string Lista_kiiratas()
+		{
+			string s="";
+			for(int i=0; i<nums.Count; i++)
+			{
+				s += nums[i];
+				s += "; ";
+			}
+			return s;	
+		}
 	}
 }
